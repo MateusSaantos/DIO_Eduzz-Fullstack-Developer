@@ -1,0 +1,63 @@
+//Exercicios de fixação
+<<<<<<< HEAD
+
+//Constructor
+function Student(name, age){
+    this.name = name;
+    this.age = age;
+
+    this.registered = function registered(){
+        const registered = true;
+        return registered;
+    }
+}
+
+const mateus = new Student("Mateus", 23);
+console.log(mateus);
+
+console.log(`NOME: ${mateus.name} IDADE: ${mateus.age} STATUS MATRÍCULA: ${mateus.registered()}`)
+
+const ana = new Student("Ana", 24);
+
+console.log(`NOME: ${ana.name} IDADE: ${ana.age} STATUS MATRÍCULA: ${ana.registered()}`)
+=======
+//.0
+
+//Estruturas de repetição
+var contador = 1 
+var valor = 10
+
+console.log("TABUADA DO 10")
+
+do{
+    valor *= contador
+    console.log(`10 x ${contador} =  ${valor}`)
+    contador++
+    valor = 10
+} while (contador <= 10){
+    console.log("Fim")
+}
+
+var pessoas = [{
+    nome: "Mateus",
+    sexo : "M"
+},
+{
+    nome: "Luana",
+    sexo: "F"
+},
+{
+    nome: "Bruna",
+    sexo: "F"
+}
+]
+var contador = 0
+
+for (var dados in pessoas){
+    console.log(pessoas[dados])
+    console.log(dados)
+}
+
+
+
+>>>>>>> 55a75780aa74ad0ab049330cebe9c554f2548ef1

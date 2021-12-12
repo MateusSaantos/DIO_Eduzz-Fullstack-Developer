@@ -1,0 +1,29 @@
+//Exercicios de fixação
+<<<<<<< HEAD
+
+//Callback
+function myName(lastName){
+    console.log("Mateus");
+    lastName();
+}
+
+myName( 
+    () =>{
+    console.log("Santos");
+})
+
+=======
+//5.0
+
+//Concatenar vetores
+
+var aprovados = ["João", "Maria", "Thiago", "Luana"]
+var alunos = ["Mateus", ...aprovados, "Bruna"]
+
+//Lendo os dados do vetor atraves de função
+alunos.forEach (function (x){
+    console.log(x);
+});
+>>>>>>> 55a75780aa74ad0ab049330cebe9c554f2548ef1
+
+

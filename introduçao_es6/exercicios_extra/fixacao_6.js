@@ -1,5 +1,4 @@
 //Exercicios de fixação
-
 //Constructor
 function Student(name, age){
     this.name = name;

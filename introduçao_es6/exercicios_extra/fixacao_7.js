@@ -1,5 +1,4 @@
 //Exercicios de fixação
-
 //Prototype
 //Prototipos de funções já prontas e disponiveis para serem utilizadas
 

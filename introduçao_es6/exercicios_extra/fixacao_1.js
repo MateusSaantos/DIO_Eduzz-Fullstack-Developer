@@ -1,5 +1,4 @@
 //Exercicios de fixação
-
 console.log("Hello world");
 console.log('Hello world');
 console.log(`Hello world`);

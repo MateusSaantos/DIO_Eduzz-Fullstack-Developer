@@ -1,5 +1,4 @@
 //Exercicios de fixação
-
 //Object
 const student = {
     name: "Mateus",

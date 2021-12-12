@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Cabeçalho e espaçamento */
 
 body{
@@ -56,3 +57,63 @@ img{
 	border-radius: 50%;
 	width: 25%;
 }
+=======
+/* Cabeçalho e espaçamento */
+
+body{
+	background-color: #e4e6f2;
+	margin:auto;
+	
+}
+
+#espaco{
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+#cabecalho {
+	background:black;
+	width: 100%;
+	height: 30%;
+	position:absolute;
+}
+
+/* Bordas personalizadas */
+
+#bordapersonalizada{
+	border-top: 8px solid black;
+	border-right: 8px solid black;
+	border-radius: 0px 100px 0px 0px;
+}
+
+/* Textos */
+
+#centralizar{
+	text-align: center;
+	padding-right: 4px;
+}
+
+h1{
+	text-align: center;
+}
+
+h4{
+	padding-left: 10px;
+}
+
+p{
+	padding-left: 10px;
+}
+
+/* Imagem */
+
+img{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	width: 25%;
+}
+>>>>>>> 55a75780aa74ad0ab049330cebe9c554f2548ef1

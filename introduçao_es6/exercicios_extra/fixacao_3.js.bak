@@ -1,0 +1,52 @@
+//Exercicios de fixação
+<<<<<<< HEAD
+
+//Functions
+function text() {
+    console.log("Function")
+}
+
+text();
+
+function sum(number1, number2){
+    const total = number1 + number2;
+    return total;
+}
+
+const resp = sum(1, 1);
+
+console.log(resp);
+
+//Função sofrendo elevação
+myName();
+
+function myName(){
+    console.log("Mateus")
+}
+=======
+//3.0
+
+var alunos = ["Aline", "Gabriel", "Fernando", "Mateus", "Lucas", "Lucas", "Aline", "Aline"]
+
+for(let x = 0; x < alunos.length; x++){
+    const nome = alunos[x]
+    //console.log(`O nome do aluno é: ${nome}`);
+}
+
+//Verificar se tem alunos com nomes iguais
+for(let x = 0; x < alunos.length; x++){
+    const compara = alunos[x];
+    let contador = 0;
+    for(let y = 0; y < alunos.length; y++){
+        if(compara === alunos[y]){
+            contador++
+        }
+    }
+
+    if(contador > 1){
+        console.log(`Existem ${contador} alunos com o nome ${compara}`);
+    }
+}
+
+
+>>>>>>> 55a75780aa74ad0ab049330cebe9c554f2548ef1

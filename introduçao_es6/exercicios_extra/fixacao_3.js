@@ -1,5 +1,4 @@
 //Exercicios de fixação
-
 //Functions
 function text() {
     console.log("Function")

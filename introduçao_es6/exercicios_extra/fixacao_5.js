@@ -1,5 +1,4 @@
 //Exercicios de fixação
-
 //Callback
 function myName(lastName){
     console.log("Mateus");
@@ -10,6 +9,3 @@ myName(
     () =>{
     console.log("Santos");
 })
-
-
-
